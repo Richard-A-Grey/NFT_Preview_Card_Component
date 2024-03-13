@@ -1,0 +1,55 @@
+body{
+    background-color: #02263C;
+    overflow-x: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.absolute {
+    width: 100%; 
+    height: 100%; 
+    position: absolute;
+}
+.rectangle1 {
+    background-color: #02263c47;
+    filter: brightness(.9);
+    width: 35%; 
+    height: 80%; 
+    z-index: 1;
+    border-radius: 20px;
+    margin-top: -5%;
+}
+.rectangle2 {
+    background-color: #02263c2a;
+    filter: brightness(.8);
+    width: 30%; 
+    height: 85%; 
+    z-index: 2;
+    border-radius: 20px;
+    margin-top: -5%;
+}
+.rectangle3 {
+    background-color: #02263C;
+    filter: brightness(1.2);
+    width: 25%; 
+    height: 90%; 
+    z-index: 3;
+    border-radius: 20px;
+    margin-top: -3%;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.image-container img{
+    width: 80%;
+    margin-top: 9%;
+    border-radius: 10px;
+}
+.profile-image img{
+    width: 20%;
+    border-radius: 100px;
+}
