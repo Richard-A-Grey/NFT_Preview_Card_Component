@@ -48,10 +48,7 @@ body{
     width: 85%;
     margin-top: 7%;
     border-radius: 10px;
-}
-.profile-image img{
-    width: 25%;
-    border-radius: 100px;
+    transition: ease-in .3s;
 }
 .tittle{
     color: white;
@@ -61,6 +58,7 @@ body{
     font-weight: bold;
     font-family: monospace;
     letter-spacing: .5px;
+    transition: ease-in .3s;
 }
 .text{
     color: white;
@@ -108,19 +106,55 @@ body{
 }
 .row-2-container{
     display: flex;
-    padding-left: 8%;
 }
 .profile-image img{
-    border: 4px solid rgb(255, 255, 255);
+    width: 20%;
     border-radius: 100px;
+    border: solid 5px rgb(255, 255, 255);
+    margin-top: -.5%;
+    transition: ease-in .3s;
+}
+.profile-image{
+    width: 65%;
+    border-radius: 100px;
+    padding-left: 10%;
 }
 .row-2-text{
-    color: white;
-    opacity: .5;
-    font-size: 80%;
+    margin-left: -43%;
     font-family: monospace;
-    flex: 1;
+    color: white;
+    opacity: .6;
+    margin-right: 2.5%;
+    margin-top: 5%;
+    letter-spacing: .5px;
 }
-.hyperlink{
-    flex: 1;
+.row-2-hyperlink{
+    color: white;
+    font-family: monospace;
+    margin-top: 5%;
+    letter-spacing: .5px;
+    font-weight: bold;
+    transition: ease-in .3s;
+}
+.image-container img:hover{
+    scale: 1.05;
+    filter: saturate(2);
+    cursor: pointer;
+}
+.tittle:hover{
+    color: aqua;
+    text-shadow: 0px 0px 1.5px aqua;
+    cursor: pointer;
+    scale: 1.02;
+}
+.row-2-hyperlink:hover{
+    color: aqua;
+    text-shadow: 0px 0px 1.5px aqua;
+    cursor: pointer;
+    scale: 1.02;
+}
+.profile-image img:hover{
+    border-color: aqua;
+    cursor: pointer;
+    scale: 1.05;
 }
