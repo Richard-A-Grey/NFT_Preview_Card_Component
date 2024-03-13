@@ -50,6 +50,77 @@ body{
     border-radius: 10px;
 }
 .profile-image img{
-    width: 20%;
+    width: 25%;
     border-radius: 100px;
+}
+.tittle{
+    color: white;
+    padding-left: 8%;
+    padding-top: 6%;
+    font-size: 140%;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: .5px;
+}
+.text{
+    color: white;
+    padding-left: 8%;
+    padding-top: 6%;
+    font-size: 110%;
+    padding-right: 5%;
+    line-height: 130%;
+    opacity: .5;
+    letter-spacing: .5px;
+    font-family: monospace;
+}
+.row-1-container{
+    display: flex;
+    padding-left: 8%;
+    margin-top: 8%;
+}
+.currency-icon{
+    padding-right: 3%;
+}
+.currency-text{
+    color: aqua;
+    font-family: monospace;
+    margin-top: 1%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.time-icon{
+    padding-left: 25%;
+}
+.time-text{
+    color: white;
+    opacity: .5;
+    font-size: 90%;
+    padding-left: 2%;
+    margin-top: .5%;
+    font-weight: bold;
+    font-family: monospace;
+}
+.line{
+    opacity: .1;
+    width: 80%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+.row-2-container{
+    display: flex;
+    padding-left: 8%;
+}
+.profile-image img{
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 100px;
+}
+.row-2-text{
+    color: white;
+    opacity: .5;
+    font-size: 80%;
+    font-family: monospace;
+    flex: 1;
+}
+.hyperlink{
+    flex: 1;
 }
